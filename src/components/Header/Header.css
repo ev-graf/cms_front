@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.header {
+  @apply bg-gray-100 dark:bg-[#1e1e2f] py-5 shadow-md;
+}
+
+.nav {
+  @apply flex justify-center gap-8;
+}
+
+.nav-link {
+  @apply text-gray-800 dark:text-white no-underline text-lg font-medium px-4 py-2 rounded-lg transition-colors duration-300;
+}
+
+.nav-link:hover {
+  @apply bg-gray-200 dark:bg-[#2d2d44];
+}
+
+.theme-switcher {
+  @apply ml-4 flex items-center gap-2;
+}

@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+.search-container {
+  @apply max-w-3xl mx-auto p-6;
+}
+
+.search-form {
+  @apply flex gap-4 mb-6;
+}
+
+.search-input {
+  @apply flex-1 px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-black dark:text-white;
+}
+
+.search-button {
+  @apply px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300;
+}
+
+.search-results {
+  @apply flex flex-col gap-4;
+}
+
+.search-post {
+  @apply bg-gray-100 dark:bg-gray-800 text-black dark:text-white px-4 py-3 rounded-lg shadow;
+}
+
+.no-results {
+  @apply text-gray-500 dark:text-gray-400 text-center mt-4;
+}

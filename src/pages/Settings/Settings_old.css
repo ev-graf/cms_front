@@ -1,0 +1,48 @@
+/* Settings.css */
+
+@import "tailwindcss";
+
+.settings-container {
+  @apply max-w-xl mx-auto px-4 py-8;
+}
+
+.settings-title {
+  @apply text-3xl font-bold mb-6 text-center text-black dark:text-white;
+}
+
+.login-button {
+  @apply block mx-auto bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors;
+}
+
+.user-settings {
+  @apply bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg space-y-4 text-black dark:text-white;
+}
+
+/* Модальное окно */
+.modal-overlay {
+  @apply fixed inset-0 bg-black/50 flex justify-center items-center z-50;
+}
+
+.modal {
+  @apply bg-white dark:bg-gray-900 p-6 rounded-lg w-80 shadow-xl;
+}
+
+.modal-title {
+  @apply text-xl font-semibold mb-4 text-black dark:text-white;
+}
+
+.modal-input {
+  @apply w-full px-4 py-2 mb-3 border rounded-md dark:bg-gray-800 dark:text-white;
+}
+
+.modal-actions {
+  @apply flex justify-end gap-2;
+}
+
+.modal-submit {
+  @apply bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700;
+}
+
+.modal-cancel {
+  @apply bg-gray-400 text-white px-4 py-2 rounded hover:bg-gray-500;
+}

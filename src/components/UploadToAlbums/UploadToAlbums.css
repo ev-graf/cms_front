@@ -1,0 +1,42 @@
+/* UploadToAlbums.css */
+@import "tailwindcss";
+
+.upload-wrapper {
+  @apply space-y-6 mt-4;
+}
+
+.top-bar {
+  @apply flex flex-row items-center justify-center gap-4;
+}
+
+.top-bar input[type="date"] {
+  @apply border border-gray-300 rounded px-3 py-1.5 dark:bg-gray-800 dark:text-white dark:border-gray-600;
+}
+
+.top-bar button {
+  @apply bg-blue-600 text-white font-semibold px-4 py-2 rounded hover:bg-blue-700 transition-colors;
+}
+
+.image-list {
+  @apply flex flex-col gap-4;
+}
+
+.image-item {
+  @apply flex items-center gap-4 bg-gray-100 dark:bg-gray-700 p-3 rounded shadow;
+}
+
+.image-item .thumb {
+  @apply w-24 h-24 object-cover rounded border border-gray-300 dark:border-gray-600;
+}
+
+.image-item select {
+  @apply border border-gray-300 rounded px-2 py-1 dark:bg-gray-800 dark:text-white dark:border-gray-600;
+}
+
+.image-item .remove {
+  @apply text-red-600 font-bold text-xl cursor-pointer ml-auto;
+}
+
+.upload-button {
+  @apply bg-green-600 text-white px-6 py-2 rounded font-semibold hover:bg-green-700 transition-colors;
+}

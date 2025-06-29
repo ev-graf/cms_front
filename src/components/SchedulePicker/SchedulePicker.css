@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.schedule-picker {
+  @apply flex items-center gap-4 p-4 bg-white dark:bg-gray-800 rounded-xl shadow;
+}
+
+.custom-picker {
+  @apply w-32;
+}
